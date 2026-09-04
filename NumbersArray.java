@@ -21,7 +21,8 @@ public class NumbersArray {
         System.out.println("Unique numbers : " + Arrays.toString(findUnique(input)));
     }
 
-    // Write your methods here =========================================================)
+    // Write your methods here =========================================================
+    
     public static int findMax(Integer[] input) {
         int result = input[0];
         for (int i = 1; i < input.length; i++) {
